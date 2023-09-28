@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Calculadora de IMC</title>
+  <link rel="stylesheet" href="./assets/css/style.css">
+</head>
+
+<body>
+
+  <section class="container">
+    <h1>Calculadora de IMC</h1>
+    <p>
+      Bem vindo a calculadora de IMC, aqui você pode calcular o seu IMC e saber se está acima do peso, 
+      abaixo do peso ou desnutrido.
+    </p>
+    <p>
+      Para calcular o seu IMC, basta preencher os campos abaixo com os seus dados.
+    </p>
+    <form>
+      <input type="text" id="peso" placeholder="Digite seu peso">
+      <input type="text" id="altura" placeholder="Digite sua altura">
+      <button id="btn-calcular">Calcular</button>
+    </form>
+    <div id="resultadoIMC"></div>
+    <div id="classificacaoIMC"></div>
+  </section>
+
+  <script src="./assets/js/main.js"></script>
+</body>
+
+</html>
